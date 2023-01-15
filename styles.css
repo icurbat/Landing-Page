@@ -10,9 +10,9 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #022B3A;
+    background-color: #1f2937;
     color:#F9FAF8;
-    padding: 16px;
+    padding: 16px 64px 16px 64px;
 }
 
 .logo{
@@ -26,5 +26,32 @@ body{
 ul{
     display: flex;
     list-style-type: none;
-    gap:16px;
+    gap:32px;
+}
+
+.container{
+    background-color: #1f2937;
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap:128px;
+}
+
+.main{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: bolder;
+    display: flex;
+
+}
+
+.secondary{
+    font-size:18px;
+    color:#E5E7EB;
+    max-width: 500px;
 }
